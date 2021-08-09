@@ -19,6 +19,7 @@ footer{
         padding: 3px;
     }
 }
+
 /* index.html */
 .content{
     display: flex;
@@ -205,23 +206,27 @@ input[type=submit]:hover {
 }
 /* media querys */
 @media only screen and (max-width: 600px) {
-    h1.wonderOutNow{
-        display: flex-end;
-        justify-content: center;
-        align-items: center;
-        margin-left: 8rem;
+    h1.wonderOutNow {
+      display: flex-end;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin-left: 8rem;
     }
-    .gridPhotoSeven, .gridPhotoSix, .gridPhotoFive, .gridPhotoFour{
-        display: none;
+    .gridPhotoSeven, .gridPhotoSix, .gridPhotoFive, .gridPhotoFour {
+      display: none;
     }
-    .mercyVideo, .inMyBloodVideo{
-        display: none;
+    .mercyVideo, .inMyBloodVideo {
+      display: none;
     }
-    .musicVideos, .images{
-        margin-left: -100px;
+    .musicVideos, .images {
+      margin-left: -100px;
     }
-    .thankYou h1{
-        margin-left: 1rem;
+    .thankYou h1 {
+      margin-left: 1rem;
     }
 }
 
