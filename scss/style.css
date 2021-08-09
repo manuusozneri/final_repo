@@ -18,6 +18,10 @@ body {
   color: #fff;
 }
 
+footer i {
+  padding: 3px;
+}
+
 /* index.html */
 .content {
   display: -webkit-box;
@@ -300,6 +304,32 @@ input[type=submit]:hover {
       -ms-flex-pack: end;
           justify-content: flex-end;
   padding-right: 100px;
+}
+
+/* media querys */
+@media only screen and (max-width: 600px) {
+  h1.wonderOutNow {
+    display: flex-end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 8rem;
+  }
+  .gridPhotoSeven, .gridPhotoSix, .gridPhotoFive, .gridPhotoFour {
+    display: none;
+  }
+  .mercyVideo, .inMyBloodVideo {
+    display: none;
+  }
+  .musicVideos, .images {
+    margin-left: -100px;
+  }
+  .thankYou h1 {
+    margin-left: 1rem;
+  }
 }
 
 /* Error 404 not found */
